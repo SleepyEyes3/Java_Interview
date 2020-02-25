@@ -1,4 +1,4 @@
-package com.java.interview.thread;
+package com.java.interview.thread.volatile1;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

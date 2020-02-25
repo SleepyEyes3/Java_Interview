@@ -1,4 +1,4 @@
-package com.java.interview.thread;
+package com.java.interview.thread.lock;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;

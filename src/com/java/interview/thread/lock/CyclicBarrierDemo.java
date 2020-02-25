@@ -1,4 +1,4 @@
-package com.java.interview.thread;
+package com.java.interview.thread.lock;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;

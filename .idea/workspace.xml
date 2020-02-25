@@ -2,15 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57bb7530-5c2e-45cf-846e-fea5da7a1047" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/java/interview/enums/CountryEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/interview/thread/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/interview/thread/CyclicBarrierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/interview/thread/ReadAndWriteLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/interview/thread/ReenterLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/interview/thread/SemaphoreDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/interview/thread/SpinLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/interview/thread/lock/SyncAndReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/interview/thread/queue/BlockingQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/interview/thread/queue/ProducterConsmerTraditionalDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/ContainerNotSafeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/ContainerNotSafeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/ABADemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/AtomicReferenceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/CASDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/CountDownLatchDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/CyclicBarrierDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/Man.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/MyCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/MyData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/ReadAndWriteLockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/ReenterLockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/SemaphoreDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/SpinLockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/VolatileDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/ABADemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/volatile1/ABADemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/AtomicReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/volatile1/AtomicReferenceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/CASDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/volatile1/CASDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/lock/CountDownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/lock/CyclicBarrierDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/ReadAndWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/lock/ReadAndWriteLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/ReenterLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/lock/ReenterLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/SemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/lock/SemaphoreDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/SpinLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/lock/SpinLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/volatile1/VolatileDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,46 +44,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/ReenterLockDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/queue/ProducterConsmerTraditionalDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/SpinLockDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/ReadAndWriteLockDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/CyclicBarrierDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state>
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,71 +56,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/SemaphoreDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/SyncAndReentrantLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="62">
+              <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/CountDownLatchDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/interview/enums/CountryEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-118">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java-env/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3553">
-              <caret line="255" column="11" selection-start-line="255" selection-start-column="11" selection-end-line="255" selection-end-column="11" />
-              <folding>
-                <element signature="e#8176#8177#0" expanded="true" />
-                <element signature="e#8216#8217#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java-env/jdk1.8.0_211/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1751">
-              <caret line="144" column="19" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/AtomicReferenceDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -155,6 +80,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>add</find>
+      <find>lock</find>
     </findStrings>
     <dirStrings>
       <dir>D:\jxy_workspace\java_workspace\Java_Interview\src\com\java\interview\thread</dir>
@@ -181,12 +107,16 @@
         <option value="$PROJECT_DIR$/src/com/java/interview/thread/CountDownLatchDemo.java" />
         <option value="$PROJECT_DIR$/src/com/java/interview/thread/CyclicBarrierDemo.java" />
         <option value="$PROJECT_DIR$/src/com/java/interview/thread/SemaphoreDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/java/interview/thread/BlockingQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/java/interview/thread/ProducterConsmerTraditionalDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/java/interview/thread/volatile1/ABADemo.java" />
+        <option value="$PROJECT_DIR$/src/com/java/interview/thread/lock/SyncAndReentrantLockDemo.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="838" />
-    <option name="width" value="1091" />
+    <option name="x" value="742" />
+    <option name="width" value="1188" />
     <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -198,6 +128,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,11 +154,35 @@
               <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java_Interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="ProducterConsmerTraditionalDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,13 +213,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SemaphoreDemo">
-    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.CountDownLatchDemo" />
+  <component name="RunManager" selected="Application.SyncAndReentrantLockDemo">
+    <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.queue.BlockingQueueDemo" />
       <module name="Java_Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.interview.thread.*" />
+          <option name="PATTERN" value="com.java.interview.thread.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,11 +228,11 @@
       </method>
     </configuration>
     <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.CyclicBarrierDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.lock.CyclicBarrierDemo" />
       <module name="Java_Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.interview.thread.*" />
+          <option name="PATTERN" value="com.java.interview.thread.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadAndWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.ReadAndWriteLockDemo" />
+    <configuration name="ProducterConsmerTraditionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.queue.ProducterConsmerTraditionalDemo" />
       <module name="Java_Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.interview.thread.*" />
+          <option name="PATTERN" value="com.java.interview.thread.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,11 +254,11 @@
       </method>
     </configuration>
     <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.SemaphoreDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.lock.SemaphoreDemo" />
       <module name="Java_Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.interview.thread.*" />
+          <option name="PATTERN" value="com.java.interview.thread.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,12 +266,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpinLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.SpinLockDemo" />
+    <configuration name="SyncAndReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.lock.SyncAndReentrantLockDemo" />
       <module name="Java_Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.interview.thread.*" />
+          <option name="PATTERN" value="com.java.interview.thread.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SyncAndReentrantLockDemo" />
+        <item itemvalue="Application.ProducterConsmerTraditionalDemo" />
+        <item itemvalue="Application.BlockingQueueDemo" />
         <item itemvalue="Application.SemaphoreDemo" />
         <item itemvalue="Application.CyclicBarrierDemo" />
-        <item itemvalue="Application.CountDownLatchDemo" />
-        <item itemvalue="Application.ReadAndWriteLockDemo" />
-        <item itemvalue="Application.SpinLockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -350,18 +305,19 @@
       <workItem from="1582286784723" duration="6400000" />
       <workItem from="1582373876023" duration="3081000" />
       <workItem from="1582507176589" duration="13009000" />
-      <workItem from="1582535210533" duration="4080000" />
+      <workItem from="1582535210533" duration="5122000" />
+      <workItem from="1582628640867" duration="8689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39124000" />
+    <option name="totallyTimeSpent" value="48855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="559" y="0" width="727" height="687" extended-state="0" />
+    <frame x="495" y="0" width="792" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31602374" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.8666667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -369,13 +325,13 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20118344" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32938856" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23274162" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.07977737" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20315582" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3283859" />
@@ -468,71 +424,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/ContainerNotSafeDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/enums/CountryEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="56" column="70" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/SingletonDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/VolatileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/CASDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/ABADemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/ReenterLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/SpinLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -554,60 +449,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/AtomicReferenceDemo.java">
+    <entry file="jar://D:/java-env/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="355" column="14" selection-start-line="355" selection-start-column="14" selection-end-line="355" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java-env/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="224" column="51" selection-start-line="224" selection-start-column="51" selection-end-line="224" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/queue/BlockingQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/SingletonDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/ReenterLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/volatile1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/volatile1/VolatileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/enums/CountryEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/ReadAndWriteLockDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/volatile1/CASDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="104">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/volatile1/AtomicReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/SemaphoreDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/CyclicBarrierDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/CyclicBarrierDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="104">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/SemaphoreDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/volatile1/ABADemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/ContainerNotSafeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="56" column="70" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/ReadAndWriteLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/SpinLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/queue/ProducterConsmerTraditionalDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/SyncAndReentrantLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

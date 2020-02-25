@@ -1,4 +1,4 @@
-package com.java.interview.thread;
+package com.java.interview.thread.lock;
 
 import com.java.interview.enums.CountryEnum;
 
