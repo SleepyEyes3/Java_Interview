@@ -16,7 +16,7 @@ public class CountDownLatchDemo {
         for(int i = 0; i < 6; i++){
             new Thread(() -> {
                 System.out.println(Thread.currentThread().getName() + " 国灭亡！");
-                countDownLatch.countDown();
+                countDownLatch.countDown(); // 每创建一个线程就减一
             }, CountryEnum.forEach_CountryEnum(i).getRetMessage()).start();
         }
         countDownLatch.await(); // 除非 countDownLatch 的值减到 0 ，不然 当前线程会在这里阻塞

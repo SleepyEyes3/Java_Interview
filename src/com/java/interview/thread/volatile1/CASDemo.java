@@ -13,19 +13,20 @@ import java.util.concurrent.atomic.AtomicInteger;
         （2）getAndIncreatment  -> unsafe.getAndAddInt  -> c++ do while CAS 直至拷贝变量与主内存中的变量一致，退出循环
 
     3. CAS的优缺点？
-
+        并发性提高了
+        但是可能会导某个致线程会一直循环卡住
     4. ABA问题？
 
     5. 怎么解决ABA问题？
-
+        给变化的值 加时间编号
 * */
 public class CASDemo {
     public static void main(String[] args) {
         AtomicInteger atomicInteger = new AtomicInteger(5);
 
-        System.out.println(atomicInteger.compareAndSet(5, 13) + "\t current data: " + atomicInteger.get());
+        System.out.println(atomicInteger.compareAndSet(5, 13) + "\t current data: " + atomicInteger.get()); // 13
 
-        System.out.println(atomicInteger.compareAndSet(5, 17) + "\t current data: " + atomicInteger.get());
+        System.out.println(atomicInteger.compareAndSet(5, 17) + "\t current data: " + atomicInteger.get()); // 17
 
     }
 }

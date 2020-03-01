@@ -17,7 +17,7 @@ import java.util.concurrent.locks.ReentrantLock;
  *    需要lock()和unlock()方法配合try/finally语句块来完成
  *
  * 3. 等待是否可中断
- *    synchronized不可中断，之后抛出异常和正常运行两种情况
+ *    synchronized不可中断，只会抛出异常和正常运行两种情况
  *    ReentrantLock可中断，1. 设置超时方法trylock(long timeout,TimeUnit unit)
  *                        2. lockInterruptibly()放代码块中，调用interrupt()方法可中断
  *

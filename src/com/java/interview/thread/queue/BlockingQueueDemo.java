@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
  * put / take
  * offer(time) 超出指定时间后会显示布尔值并退出
  *
- * SynchronousQueue 在测试的过程发现，是按照有 “消费” 才会有 “生产”
+ * SynchronousQueue 生产一个 -> 消费一个 ，Queue中的元素不消耗掉，就会将线程阻塞
  * */
 public class BlockingQueueDemo {
     public static void main(String[] args) {
@@ -28,6 +28,7 @@ public class BlockingQueueDemo {
 
         new Thread(() -> {
             try {
+                try { TimeUnit.SECONDS.sleep(2); }catch (InterruptedException e){ e.printStackTrace(); }
                 synchronousQueue.put("j");
                 System.out.println("put j");
 
@@ -43,7 +44,7 @@ public class BlockingQueueDemo {
 
         new Thread(() -> {
             try {
-                try { TimeUnit.SECONDS.sleep(2); }catch (InterruptedException e){ e.printStackTrace(); }
+//                try { TimeUnit.SECONDS.sleep(2); }catch (InterruptedException e){ e.printStackTrace(); }
                 synchronousQueue.take();
                 System.out.println("take j");
 

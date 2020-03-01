@@ -38,7 +38,8 @@ class Market{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            try { TimeUnit.SECONDS.sleep(1); }catch (InterruptedException e){ e.printStackTrace(); }
+            try { TimeUnit.SECONDS.sleep(1); }catch (InterruptedException e){ e.printStackTrace(); } // 停顿时候 Consumer已把值拿走了
+            // 感觉传统的lock实现的好一点啊，这里面都没有通知线程，就是一个BlockingQueue的使用，不推荐
         }
         System.out.println("生产停止！");
     }
