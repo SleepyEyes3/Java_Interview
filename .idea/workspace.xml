@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57bb7530-5c2e-45cf-846e-fea5da7a1047" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/java/interview/thread/ReviewDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/interview/thread/DeadLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/volatile1/MyData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/volatile1/MyData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/volatile1/VolatileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/volatile1/VolatileDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/lock/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/lock/CountDownLatchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/lock/ReadAndWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/lock/ReadAndWriteLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/lock/SyncAndReentrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/lock/SyncAndReentrantLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/queue/BlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/queue/BlockingQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/queue/ProducterConsumerBlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/queue/ProducterConsumerBlockingQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/volatile1/CASDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/volatile1/CASDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/volatile1/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/volatile1/VolatileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/queue/Market.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/queue/Market.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/queue/ProducterConsumerBlockingQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/queue/ProducterConsumerBlockingQueueDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/threadpool/MyThreadPoolDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Interview/com/java/interview/thread/threadpool/MyThreadPoolDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/interview/thread/threadpool/MyThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/interview/thread/threadpool/MyThreadPoolDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,34 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/queue/ProducterConsumerBlockingQueueDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/ContainerNotSafeDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="56" column="70" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/SingletonDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="257">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding>
                 <element signature="e#92#93#0" expanded="true" />
                 <element signature="e#183#184#0" expanded="true" />
@@ -64,10 +36,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/ReadAndWriteLockDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/threadpool/CallableDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-544">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="238">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,25 +48,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/CountDownLatchDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/threadpool/MyThreadPoolDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/DeadLockDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/CyclicBarrierDemo.java">
+        <entry file="jar://D:/java-env/jdk1.8.0_211/src.zip!/java/util/concurrent/Executors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="161">
+              <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/java-env/jdk1.8.0_211/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="1196" column="11" selection-start-line="1196" selection-start-column="11" selection-end-line="1196" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -102,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/SemaphoreDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="136">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -114,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/SpinLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="612">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/queue/BlockingQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
+            <state relative-caret-position="221">
               <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -138,7 +122,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/queue/ProducterConsmerTraditionalDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
+            <state relative-caret-position="170">
               <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -195,7 +179,6 @@
         <option value="$PROJECT_DIR$/src/com/java/interview/thread/ProducterConsmerTraditionalDemo.java" />
         <option value="$PROJECT_DIR$/src/com/java/interview/thread/volatile1/ABADemo.java" />
         <option value="$PROJECT_DIR$/src/com/java/interview/thread/threadpool/CallableDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/java/interview/thread/threadpool/MyThreadPoolDemo.java" />
         <option value="$PROJECT_DIR$/src/com/java/interview/thread/lock/ReenterLockDemo.java" />
         <option value="$PROJECT_DIR$/src/com/java/interview/thread/VolatileTest1.java" />
         <option value="$PROJECT_DIR$/src/com/java/interview/thread/ReviewDemo.java" />
@@ -207,6 +190,8 @@
         <option value="$PROJECT_DIR$/src/com/java/interview/thread/lock/SpinLockDemo.java" />
         <option value="$PROJECT_DIR$/src/com/java/interview/thread/queue/BlockingQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/com/java/interview/thread/queue/ProducterConsumerBlockingQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/java/interview/thread/threadpool/MyThreadPoolDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/java/interview/thread/DeadLockDemo.java" />
       </list>
     </option>
   </component>
@@ -255,32 +240,6 @@
               <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Java_Interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-              <item name="ProducterConsmerTraditionalDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Java_Interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-              <item name="ProducterConsumerBlockingQueueDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -321,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProducterConsmerTraditionalDemo">
+  <component name="RunManager" selected="Application.DeadLockDemo">
     <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.queue.BlockingQueueDemo" />
       <module name="Java_Interview" />
@@ -335,38 +294,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.DeadLockDemo" />
+      <module name="Java_Interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.interview.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.threadpool.MyThreadPoolDemo" />
+      <module name="Java_Interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.interview.thread.threadpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProducterConsmerTraditionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.queue.ProducterConsmerTraditionalDemo" />
       <module name="Java_Interview" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.interview.thread.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadAndWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.lock.ReadAndWriteLockDemo" />
-      <module name="Java_Interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.interview.thread.lock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.interview.thread.lock.SemaphoreDemo" />
-      <module name="Java_Interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.interview.thread.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,11 +348,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadLockDemo" />
+        <item itemvalue="Application.MyThreadPoolDemo" />
         <item itemvalue="Application.ProducterConsmerTraditionalDemo" />
         <item itemvalue="Application.BlockingQueueDemo" />
         <item itemvalue="Application.SpinLockDemo" />
-        <item itemvalue="Application.SemaphoreDemo" />
-        <item itemvalue="Application.ReadAndWriteLockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -418,18 +377,19 @@
       <workItem from="1582715087872" duration="8282000" />
       <workItem from="1582891250789" duration="1130000" />
       <workItem from="1582939253376" duration="3945000" />
-      <workItem from="1583060535357" duration="7567000" />
+      <workItem from="1583060535357" duration="8281000" />
+      <workItem from="1583146691412" duration="3556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70121000" />
+    <option name="totallyTimeSpent" value="74391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23605497" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24009702" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -438,12 +398,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32938856" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2987013" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28385898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5009276" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14656772" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3283859" />
@@ -579,30 +539,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/VolatileTest1.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/threadpool/MyThreadPoolDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/interview/enums/CountryEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/threadpool/CallableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,79 +646,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/ReadAndWriteLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/CyclicBarrierDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/SemaphoreDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/SpinLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/queue/BlockingQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/queue/ProducterConsmerTraditionalDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/queue/ProducterConsumerBlockingQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="646">
           <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -788,8 +658,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/ContainerNotSafeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
+        <state relative-caret-position="935">
           <caret line="56" column="70" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/ReadAndWriteLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/CyclicBarrierDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/SemaphoreDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/lock/SpinLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/queue/BlockingQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/queue/ProducterConsmerTraditionalDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -798,12 +738,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/SingletonDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="257">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
           <folding>
             <element signature="e#92#93#0" expanded="true" />
             <element signature="e#183#184#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/threadpool/CallableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java-env/jdk1.8.0_211/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java-env/jdk1.8.0_211/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="1196" column="11" selection-start-line="1196" selection-start-column="11" selection-end-line="1196" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/threadpool/MyThreadPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/interview/thread/DeadLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
         </state>
       </provider>
     </entry>
