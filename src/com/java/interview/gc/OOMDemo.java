@@ -61,6 +61,7 @@ public class OOMDemo {
 
     // 元空间中存储的内容：虚拟机加载的类信息 常量池 静态变量 及时编译后的代码
     // -XX:MetaspaceSize=8m -XX:MaxMetaspaceSize=8m
+    // 需要使用cglib，这里暂时不演示
     private static void MetaSpace(){
         int i = 0;
         try {

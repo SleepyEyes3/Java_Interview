@@ -28,7 +28,42 @@ package com.java.interview.gc;
  *      -XX:NewRatio=4 默认是2
  *      -XX:MaxTenuringThreshold=15 值需要在 0~15 之间
  *
- * 6.
+ * 6. 查看默认的垃圾回收器
+ *      java -XX:+PrintCommandLineFlags -version
+ *
+ * 7. 默认的垃圾回收器种类？
+ *      -XX:+UseSerialGC
+ *          新生代：def new generation --> 串行垃圾回收器 + 整理算法
+ *          老年代：tenured generation --> 串行垃圾回收器 + 标记-整理
+ *
+ *      -XX:+UseParNewGC
+ *          新生代：par new generation --> 并行垃圾回收器 + 整理算法
+ *          老年代：tenured generation --> 串行垃圾回收器 + 标记-整理
+ *
+ *      -XX:+UseParallelGC 或 UseParallelOldGC （可互相激活） 吞吐量优先
+ *          新生代：parallel scavenge（young generation） --> 并行垃圾回收器 + 整理算法
+ *          老年代：parallel old generation --> 并行垃圾回收器 + 标记-整理
+ *
+ *      -XX:UseConcMarkSweepGC （以获取最短回收停顿时间为目标的回收器）在效果不理想的情况下可能会退化为Serial Old
+ *          大型互联网公司用的多，要求低延迟
+ *           新生代：par new generation --> 并行垃圾回收器 + 整理算法
+ *           老年代：concurrent mark-sweep generation --> 并发垃圾回收器 + 标记-清除
+ *
+ *      -XX:UseG1GC
+ *           新生代：garbage-first --> 标记-整理
+ *           老年代：garbage-first --> 标记-整理
+ *
+ *      老年代和年轻代之间都有默认的关联关系
+ *
+ * 8. 垃圾收集器的选择
+ *
+ * 9. G1相对于CMS的优势
+ *      G1没有内存碎片
+ *      可以控制停顿时间
+ *
+ * 10. JVM+微服务
+ *      java -server jvm参数 -jar .jar
+ *
  * */
 public class GCDemo {
     public static void main(String[] args) throws InterruptedException {
