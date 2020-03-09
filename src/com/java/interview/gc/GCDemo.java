@@ -17,15 +17,15 @@ package com.java.interview.gc;
  *      为0的情况下，是系统默认值，可视为Linux 64bit的值，也就是 1024k
  *
  * 5. 典型VM参数设置案例
- *      -Xms128m
- *      -Xmx4096m
- *      -Xss1024k
+ *      -Xms128m    物理内存的 1/16
+ *      -Xmx4096m   物理内存的 1/4
+ *      -Xss1024k   512k ~ 1024k
  *      -XX:MetaspaceSize=512m
  *      -XX:+PrintCommandFlags
  *      -XX:+PrintGCDetails
  *      -XX:+UseSerialGC
  *      -XX:SurvivorRatio=4 默认是8 暂时需要配合 UseSerialGC 一起使用
- *      -XX:NewRatio=4 默认是3
+ *      -XX:NewRatio=4 默认是2
  *      -XX:MaxTenuringThreshold=15 值需要在 0~15 之间
  *
  * 6.

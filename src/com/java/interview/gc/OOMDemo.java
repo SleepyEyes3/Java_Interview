@@ -7,17 +7,17 @@ import java.util.List;
 public class OOMDemo {
     public static void main(String[] args) {
 
-        // Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+        // 1. Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 //        JavaHeapSpace();
 
-        // Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
-//        GCOverHeadDemo();
+        // 2. Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+        GCOverHeadDemo();
 
-        // Exception in thread "main" java.lang.OutOfMemoryError: Direct buffer memory
+        // 3. Exception in thread "main" java.lang.OutOfMemoryError: Direct buffer memory
 //        DirectBufferMemoryDemo();
 
-        // Exception in thread "main" java.lang.OutOfMemoryError: unable to create new native thread
-        UnableCreateNewThreadDemo();
+        // 4. Exception in thread "main" java.lang.OutOfMemoryError: unable to create new native thread
+//        UnableCreateNewThreadDemo();
     }
 
 
@@ -27,6 +27,7 @@ public class OOMDemo {
     }
 
     // 百分之九十八的时间用来垃圾回收，回收不到百分之二的堆内存
+    // -Xms10m -Xmx10m
     private static void GCOverHeadDemo(){
         List<String> list = new ArrayList<>();
         int i = 0;
@@ -41,8 +42,8 @@ public class OOMDemo {
         }
     }
 
-    // -Xms10m -Xmx10m -XX:MaxDirectMemorySize=5m
     // 物理内存（直接内存）爆了
+    // -Xms10m -Xmx10m -XX:MaxDirectMemorySize=5m
     private static void DirectBufferMemoryDemo(){
         System.out.println("配置的maxDirectBuffermemory： " + sun.misc.VM.maxDirectMemory()/1024/1024 + "MB");
         ByteBuffer bb = ByteBuffer.allocateDirect(6*1024*1024);
